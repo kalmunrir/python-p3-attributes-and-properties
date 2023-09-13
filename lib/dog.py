@@ -33,7 +33,3 @@ class Dog:
     def __init__(self, name="Dog", breed="Pointer"):
         self.setName(name)
         self.setBreed(breed)
-
-
-fido = Dog(name="Fido")
-print(fido.getName())
